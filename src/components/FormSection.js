@@ -24,6 +24,7 @@ export default function FormSection() {
     } else {
       setErreur(false);
       setMessage(`Bienvenue, ${clean} !`);
+      setNom(""); // empties the input after validation
     }
   };
 
